@@ -19,7 +19,11 @@ export default function Home() {
             <Image alt="Emokushop Logo" src="/EmokushopLogo.png" fill />
          </span>
          <div className="flex flex-col items-center gap-2 my-10 font-semibold text-center">
-            <h1 className="text-2xl">@emokushop.us</h1>
+            <h1 className="text-2xl">
+               <Link href="https://www.instagram.com/emokushop.us/">
+                  @emokushop.us
+               </Link>
+            </h1>
             <p className="text-lg">Shop, play and keep emotionally updated</p>
 
             <ContactLinks />
