@@ -15,7 +15,7 @@ export default function Home() {
             />
             <link rel="icon" href="/favicon.ico" />
          </Head>
-         <span className="relative flex aspect-square h-[6rem] min-h-[6rem] mt-6">
+         <span className="relative flex aspect-square h-[7rem] min-h-[6rem] mt-12">
             <Image alt="Emokushop Logo" src="/EmokushopLogo.png" fill />
          </span>
          <div className="flex flex-col items-center gap-2 my-10 font-semibold text-center">
