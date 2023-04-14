@@ -9,7 +9,7 @@ function ContactLink({
    children: React.ReactNode;
 }) {
    return (
-      <Link href={href} target="_blank" className="hover:scale-[1.03]">
+      <Link href={href} className="hover:scale-[1.03]">
          {children}
       </Link>
    );

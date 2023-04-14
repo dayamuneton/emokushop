@@ -4,18 +4,24 @@
 
 @keyframes wiggle {
    0%,
-   90%,
+   75%,
    100% {
       transform: rotate(0deg);
    }
-   93% {
+   80% {
       transform: rotate(1deg) translateX(10px);
    }
-   97% {
+   85% {
+      transform: rotate(-1deg) translateX(-10px);
+   }
+   90% {
+      transform: rotate(1deg) translateX(10px);
+   }
+   95% {
       transform: rotate(-1deg) translateX(-10px);
    }
 }
 
 .animate-wiggle {
-   animation: wiggle 4s infinite ease-in-out;
+   animation: wiggle 3s infinite ease-in-out;
 }

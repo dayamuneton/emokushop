@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Home() {
    return (
-      <div className="h-screen min-h-screen bg-gradient-to-b from-[#fed5d4] to-[#f0faa0] flex flex-col items-center">
+      <div className="h-full min-h-screen bg-gradient-to-b from-[#fed5d4] to-[#f0faa0] flex flex-col items-center">
          <Head>
             <title>Emokushop</title>
             <meta
